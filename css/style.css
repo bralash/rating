@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #101113;
+    font-family: 'Overpass', 'Helvetica Neue',sans-serif;
+    overflow: hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section.container,
+section.thanks {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+    background: radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 32px;
+}
+
+section.container .star {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #262E38;
+    text-align: center;
+    line-height: 53px;
+    margin-bottom: 30px;
+}
+
+section.container h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+
+section.container p {
+    color: #969FAD;
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+section.container .ratings {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+section.container .ratings .rate {
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background-color: #262E38;
+    color: #7C8798;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.container .submit {
+    width: 100%;
+    padding: 11px 0px;
+    border-radius: 22.5px;
+    background-color: #FC7614;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+section.thanks {
+    text-align: center;
+    left: 200%;
+}
+
+section.thanks .thanks-illustration {
+    width: 162px;
+    margin: 0px auto 32px;
+}
+
+section.thanks .summary {
+    padding: 5px 20px;
+    border-radius: 22.5px;
+    background-color: #262E38;
+    text-align: center;
+    max-width: fit-content;
+    margin: 0px auto 32px;
+    color: #FC7614;
+}
+
+section.thanks h1 {
+    font-size: 28px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+section.thanks p {
+    color: #969FAD;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
